@@ -1,4 +1,4 @@
-const url = 'http://api.openweathermap.org/data/2.5/weather?';
+const url = 'https://api.openweathermap.org/data/2.5/weather?';
 const apiKey = 'appid=207414ebaee9e5ea84e2cf27cf0d1235';
 const unitsButton = document.querySelector('button');
 const iconElement = document.querySelector('.weather-icon');
