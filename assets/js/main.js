@@ -73,7 +73,7 @@ function getWether(position) {
 		.then(() => displayWeather());
 }
 function displayWeather() {
-	iconElement.innerHTML = `<img src="/assets/img/${weather.iconId}.png">`;
+	iconElement.innerHTML = `<img src="assets/img/${weather.iconId}.png">`;
 	if (unitsCookie === 'metric') {
 		tempElement.innerHTML = `${weather.temperature}°<span>C</span>`;
 	} else {
